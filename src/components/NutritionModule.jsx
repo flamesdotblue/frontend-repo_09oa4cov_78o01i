@@ -64,7 +64,7 @@ export default function NutritionModule() {
           {[
             { label: "Calories", value: `${totals.calories} kcal` },
             { label: "Protein", value: `${totals.protein} g` },
-            { label: "Carbs", value: `${totals.carbs} g" },
+            { label: "Carbs", value: `${totals.carbs} g` },
             { label: "Fat", value: `${totals.fat} g` },
           ].map((s) => (
             <div key={s.label} className="bg-teal-50 rounded-lg py-2">
